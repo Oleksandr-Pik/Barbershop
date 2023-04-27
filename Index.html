@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BarberShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container header-container">
+        <nav class="navigation">
+          <a class="logo link" href="/" aria-label="логотип сайта">
+            <img
+              class="logo-img"
+              c
+              src="./images/logo.svg"
+              alt="Логотип"
+              width="68"
+              height="54"
+            />
+          </a>
+          <ul class="nav-list list">
+            <li class="nav-list-item">
+              <a class="nav-list-link link" href="#about">Про нас</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link link" href="#prices">Послуги та ціни</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link link" href="#masters">Майстри</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link link" href="#contacts">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="contact-number link" href="tel:+380441111111"
+          >+38 044 111 11 11</a
+        >
+        <button class="modal-btn" type="button">онлайн-запис</button>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero-section">
+        <div class="container flex-container">
+          <div class="hero-left-side">
+            <ul class="cocial-links-list list">
+              <li class="cocial-links-list-item">
+                <a
+                  class="cocial-links-list-link link"
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Instagram</a
+                >
+              </li>
+              <li class="cocial-links-list-item">
+                <a
+                  class="cocial-links-list-link link"
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Youtube</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="hero-right-side">
+            <p class="overtitle overtitle-theme-dark" lang="en">
+              A hair salon for men in Kyiv
+            </p>
+            <h1 class="main-title" lang="en">BarberShop</h1>
+            <p class="description description-theme-dark">
+              Ми експерти у модних чоловічих стрижках. Працюємо швидко, обережно
+              та зі смаком.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT US-->
+      <section class="about-us section" id="about">
+        <div class="container flex-container">
+          <ul class="about-us-list list flex-container">
+            <li class="about-us-list-item">
+              <img
+                src="./images/about-img-1.jpg"
+                alt="барбер бриє шию"
+                width="270"
+                height="445"
+              />
+            </li>
+            <li class="about-us-list-item">
+              <img
+                src="./images/about-img-2.jpg"
+                alt="барбер бриє потилицю"
+                width="270"
+                height="445"
+              />
+            </li>
+          </ul>
+          <div class="about-wraper">
+            <p class="overtitle overtitle-theme-light">Про нас</p>
+            <h2 class="secondary-title title-theme-light">
+              Найкращий Барбершоп твого міста
+            </h2>
+            <div class="about-descr-wraper">
+              <p class="description description-theme-light">
+                Якщо ти хочеш додати у свій образ більше впевненості, тобі точно
+                до нас.
+              </p>
+              <p class="about-description">
+                Ми команда, яка ніколи не зупиняється на досягнутому і прагне
+                змін. І коли ти потрапиш до рук нашого майстра, то вже ніколи не
+                зможеш бути тим самим. Ми команда, яка завжди з клієнтами "на
+                одній хвилі". Тому ми завжди готові вдосконалити кожного, хто до
+                нас приходить!
+              </p>
+            </div>
+            <button class="modal-btn" type="button">онлайн-запис</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- OUR PRICES -->
+      <section class="prices-section section" id="prices">
+        <div class="prices container">
+          <p class="overtitle overtitle-theme-dark">
+            Проведи час у компанії кращих майстрів
+          </p>
+          <h2 class="secondary-title title-theme-dark">Послуги та ціни</h2>
+          <div class="prices-list-wraper flex-container">
+            <ul class="prices-list prices-list-left list">
+              <li class="prices-list-item">
+                <p class="description description-theme-dark">
+                  Чоловіча стрижка
+                </p>
+                <p class="description description-theme-dark">від 300 грн.</p>
+              </li>
+              <li class="prices-list-item">
+                <p class="description description-theme-dark">Стрижка бороди</p>
+                <p class="description description-theme-dark">від 200 грн.</p>
+              </li>
+              <li class="prices-list-item">
+                <p class="description description-theme-dark">Стрижка вусів</p>
+                <p class="description description-theme-dark">від 200 грн.</p>
+              </li>
+              <li class="prices-list-item">
+                <p class="description description-theme-dark">
+                  Гоління небезпечною бритвою
+                </p>
+                <p class="description description-theme-dark">від 200 грн.</p>
+              </li>
+            </ul>
+            <ul class="prices-list prices-list-right list">
+              <li class="prices-list-item">
+                <p class="description description-theme-dark">
+                  Стрижка у стажера
+                </p>
+                <p class="description description-theme-dark">від 50 грн.</p>
+              </li>
+              <li class="prices-list-item">
+                <p class="description description-theme-dark">
+                  Стрижка під насадку
+                </p>
+                <p class="description description-theme-dark">від 200 грн.</p>
+              </li>
+              <li class="prices-list-item">
+                <p class="description description-theme-dark">
+                  Дитяча стрижка (до 12 років)
+                </p>
+                <p class="description description-theme-dark">від 300 грн.</p>
+              </li>
+              <li class="prices-list-item">
+                <p class="description description-theme-dark">
+                  Камуфлювання сивини
+                </p>
+                <p class="description description-theme-dark">від 200 грн.</p>
+              </li>
+            </ul>
+          </div>
+          <button class="modal-btn" type="button">онлайн-запис</button>
+        </div>
+      </section>
+
+      <!-- benefits -->
+      <section class="benefits section">
+        <div class="container flex-container">
+          <ul class="benefits-list list flex-container">
+            <li class="benefits-list-item">
+              <span class="quantity">600</span><sup class="plus">+</sup>
+              <p class="benefits-description">Задоволених клієнтів на день</p>
+            </li>
+
+            <li class="benefits-list-item">
+              <span class="quantity">50</span><sup class="plus">+</sup>
+              <p class="benefits-description">Нагород за відмінний сервіс</p>
+            </li>
+
+            <li class="benefits-list-item">
+              <span class="quantity">20</span><sup class="plus">+</sup>
+              <p class="benefits-description">Найкращих майстрів Києва</p>
+            </li>
+
+            <li class="benefits-list-item">
+              <span class="quantity">100</span><sup class="plus">+</sup>
+              <p class="benefits-description">Подарунків постійним клієнтам</p>
+            </li>
+          </ul>
+          <div class="benefits-descr-wraper">
+            <p class="overtitle overtitle-theme-light">
+              Cтара традиційна школа
+            </p>
+            <h2 class="secondary-title title-theme-light">
+              Чому приходять саме до нас?
+            </h2>
+            <p class="description description-theme-light">
+              Про нас говорять лише добре. Але краще 1 раз побачити і відчути,
+              ніж 10 разів прочитати.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- MASTERS -->
+      <section class="masters-section section" id="masters">
+        <div class="container">
+          <p class="overtitle overtitle-theme-light">
+            Для справжніх шанувальників атмосфери
+          </p>
+          <h2 class="secondary-title title-theme-light">Наші майстри</h2>
+          <ul class="masters-list list">
+            <li class="masters-list-item">
+              <img
+                src="./images/master-img-1.jpg"
+                alt="Майстер стрижє клієнта"
+                width="370"
+                height="346"
+              />
+              <div class="masters-content-wraper">
+                <h3 class="masters-name" lang="en">John Smith</h3>
+                <p class="masters-position" lang="en">Extreme Barber</p>
+              </div>
+            </li>
+
+            <li class="masters-list-item">
+              <img
+                src="./images/master-img-2.jpg"
+                alt="Майстер стрижє клієнта"
+                width="370"
+                height="346"
+              />
+              <div class="masters-content-wraper">
+                <h3 class="masters-name" lang="en">Michele Doe</h3>
+                <p class="masters-position" lang="en">Extreme Barber lang</p>
+              </div>
+            </li>
+
+            <li class="masters-list-item">
+              <img
+                src="./images/master-img-3.jpg"
+                alt="Майстер стрижє клієнта"
+                width="370"
+                height="346"
+              />
+              <div class="masters-content-wraper">
+                <h3 class="masters-name" lang="en">Alan Black</h3>
+                <p class="masters-position" lang="en">Extreme Barber</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- GALLARY -->
+      <section class="gallery section">
+        <div class="container">
+          <p class="overtitle overtitle-theme-light">
+            Латинською мовою "барба" означає "борода"
+          </p>
+          <h2 class="visually-hidden">Галерея</h2>
+          <ul class="gallary-list list flex-container">
+            <li class="gallary-list-item">
+              <img
+                src="./images/gallery-img-1.jpg"
+                alt="Майстер стрижє клієнта"
+                width="270"
+                height="360"
+              />
+            </li>
+            <li class="gallary-list-item">
+              <img
+                class="gallery-list-img"
+                src="./images/gallery-img-2.jpg"
+                alt="Майстер стрижє клієнта"
+                width="270"
+                height="360"
+              />
+            </li>
+            <li class="gallary-list-item">
+              <img
+                class="gallery-list-img"
+                src="./images/gallery-img-3.jpg"
+                alt="Майстер стрижє клієнта"
+                width="270"
+                height="360"
+              />
+            </li>
+            <li class="gallary-list-item">
+              <img
+                class="gallery-list-img"
+                src="./images/gallery-img-4.jpg"
+                alt="Майстер стрижє клієнта"
+                width="270"
+                height="360"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- CONTACTS -->
+        <div class="container flex-container">
+          <section class="contacts-section section contacts-form" id="contacts">
+            <h2 class="secondary-title title-theme-dark">Онлайн-запис</h2>
+            <button class="modal-btn" type="button">надіслати</button>
+          </section>
+
+          <section class="contacts-section section contacts-info">
+            <h2 class="secondary-title title-theme-dark">Контакти</h2>
+            <address>
+              <ul class="contact-info-list list">
+                <li class="contact-info-item">
+                  <a
+                    class="contact-info-link link"
+                    href="https://goo.gl/maps/aTQeY1QxTpmuPMmV7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >вул. Василькова, 7А Київ, 08132</a
+                  >
+                </li>
+                <li class="contact-info-item">
+                  <a class="contact-info-link link" href="tel:+380441111111"
+                    >+38 044 111 11 11</a
+                  >
+                </li>
+                <li class="contact-info-item">
+                  <a
+                    class="contact-info-link"
+                    href="mailto:barbershop@email.com"
+                    >barbershop@email.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <p class="overtitle overtitle-theme-dark">Часи роботи</p>
+            <p class="description description-theme-dark">
+              Щоденно з 9:00 до 22:00
+            </p>
+          </section>
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container flex-container">
+        <p class="copyright">&copy; Copyright 2023</p>
+        <ul class="cocial-links-list list flex-container">
+          <li class="cocial-links-list-item">
+            <a
+              class="cocial-links-list-link link"
+              href="/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+          </li>
+
+          <li class="cocial-links-list-item">
+            <a
+              class="cocial-links-list-link link"
+              href="/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Youtube</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
