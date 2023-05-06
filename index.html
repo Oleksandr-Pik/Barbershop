@@ -48,7 +48,13 @@
         <a class="contact-number link" href="tel:+380441111111"
           >+38 044 111 11 11</a
         >
-        <button class="modal-btn" type="button">онлайн-запис</button>
+        <button
+          class="modal-btn modal-btn-theme-dark"
+          type="button"
+          data-modal-open
+        >
+          онлайн-запис
+        </button>
       </div>
     </header>
 
@@ -57,7 +63,7 @@
       <section class="hero-section">
         <div class="container flex-container">
           <div class="hero-left-side">
-            <ul class="cocial-links-list list">
+            <ul class="cocial-links-list list hero-cocial-links-list">
               <li class="cocial-links-list-item">
                 <a
                   class="cocial-links-list-link link"
@@ -130,7 +136,9 @@
                 нас приходить!
               </p>
             </div>
-            <button class="modal-btn" type="button">онлайн-запис</button>
+            <button class="modal-btn modal-btn-theme-light" type="button">
+              онлайн-запис
+            </button>
           </div>
         </div>
       </section>
@@ -498,5 +506,17 @@
         </ul>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-close-btn" type="button" data-modal-close>
+          <svg class="modal-close-icon" width="18" height="18">
+            <use href="./images/sprite.svg#close-icon"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
