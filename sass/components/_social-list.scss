@@ -12,19 +12,19 @@
   background-color: #ffffff;
   border-radius: 50%;
   transition: background-color 500ms ease;
+
+  &:hover,
+  &:focus {
+    background-color: var(--secondary-text-color-theme-light);
+  }
 }
 
 .social-list-icon {
   fill: var(--secondary-text-color-theme-light);
   transition: fill 500ms ease;
-}
 
-.social-list-link:hover,
-.social-list-link:focus {
-  background-color: var(--secondary-text-color-theme-light);
-}
-
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: var(--accent-color);
+  .social-list-link:hover &,
+  .social-list-link:focus & {
+    fill: var(--accent-color);
+  }
 }

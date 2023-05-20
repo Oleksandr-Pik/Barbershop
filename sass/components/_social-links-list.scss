@@ -3,28 +3,26 @@
   font-size: 11px;
   line-height: 1.36;
   letter-spacing: 0.2em;
-
   color: var(--secondary-text-color-theme-light);
   transition: color 500ms ease;
-}
 
-.cocial-links-list-link:hover,
-.cocial-links-list-link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .cocial-links-list {
   display: flex;
   align-items: center;
-}
 
-.cocial-links-list::before {
-  display: block;
-  content: "";
-  width: 60px;
-  height: 1px;
-  flex-shrink: 0;
-  margin-right: 40px;
-
-  background-color: var(--secondary-text-color-theme-light);
+  &::before {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 1px;
+    flex-shrink: 0;
+    margin-right: 40px;
+    background-color: var(--secondary-text-color-theme-light);
+  }
 }
